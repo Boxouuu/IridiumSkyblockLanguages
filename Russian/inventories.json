@@ -1,0 +1,558 @@
+{
+  "upgradeGUITitle": "&7Улучшения",
+  "boosterGUITitle": "&7Бустеры",
+  "confirmationGUITitle": "&7Вы уверенны?",
+  "missionsGUITitle": "&7Миссии",
+  "membersGUITitle": "&7Участники",
+  "coopGUITitle": "&7Совместные острова",
+  "islandMenuGUITitle": "&7Меню",
+  "warpGUITitle": "&7Варпы",
+  "topGUITitle": "&7Топ островов",
+  "borderColorGUITitle": "&7Цвет границы",
+  "permissionsGUITitle": "&7Права",
+  "schematicselectGUITitle": "&7Выбрать остров",
+  "bankGUITitle": "&7Банк",
+  "visitGUITitle": "&7Посетить остров",
+  "shopGUITitle": "&7Магазин",
+  "biomeGUITitle": "&7Биом",
+  "visitorGUITitle": "&7Посетители",
+  "visitorGUISize": 27,
+  "upgradeGUISize": 27,
+  "boosterGUISize": 27,
+  "missionsGUISize": 27,
+  "membersGUISize": 27,
+  "coopGUISize": 27,
+  "islandMenuGUISize": 45,
+  "warpGUISize": 27,
+  "topGUISize": 36,
+  "borderColorGUISize": 27,
+  "permissionsGUISize": 27,
+  "schematicselectGUISize": 27,
+  "bankGUISize": 27,
+  "visitGUISize": 54,
+  "shopGUISize": 54,
+  "biomeGUISize": 54,
+  "backButtons": true,
+  "spawner": {
+    "material": "SPAWNER",
+    "amount": 1,
+    "title": "&b&lУлучшенные спаунеры",
+    "lore": [
+      "&7Ваши спаунеры слишком медленные? Купите",
+      "&7этот бустер и улучшите спаун в 2 раза.",
+      "",
+      "&b&lИнформация:",
+      "&b&l * &7Осталось времени: &b{spawnerbooster_minutes} минут и {spawnerbooster_seconds} секунд",
+      "&b&l * &7Цена бустера: &b{spawnerbooster_crystalcost} кристаллов и ${spawnerbooster_vaultcost}",
+      "",
+      "&b&l[!] &bНажмите ПКМ чтобы купить этот бустер"
+    ]
+  },
+  "farming": {
+    "material": "WHEAT",
+    "amount": 1,
+    "title": "&b&lУлучшенный урожай",
+    "lore": [
+      "&7Ваш урожай растёт слишком медленно? Купите",
+      "&7этот бустер и увеличьте скорость роста в 2 раза.",
+      "",
+      "&b&lИнформация:",
+      "&b&l * &7Осталось времени: &b{farmingbooster_minutes} минут и {farmingbooster_seconds} секунд",
+      "&b&l * &7Цена бустера: &b{farmingbooster_crystalcost} кристаллов и ${farmingbooster_vaultcost}",
+      "",
+      "&b&l[!] &bНажмите ПКМ чтобы купить этот бустер"
+    ]
+  },
+  "exp": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lУлучшенный опыт",
+    "lore": [
+      "&7Слишком долго набираете опыт? Купите этот",
+      "&7бустер и получайте в 2 раза больше опыта.",
+      "",
+      "&b&lИнформация:",
+      "&b&l * &7Осталось времени: &b{expbooster_minutes} минут и {expbooster_seconds} секунд",
+      "&b&l * &7Цена бустера: &b{expbooster_crystalcost} кристаллов и ${expbooster_vaultcost}",
+      "",
+      "&b&l[!] &bНажмите ПКМ чтобы купить этот бустер"
+    ]
+  },
+  "flight": {
+    "material": "FEATHER",
+    "amount": 1,
+    "title": "&b&lПолёт",
+    "lore": [
+      "&7Устали падать с острова? Купите этот",
+      "&7бустер и позвольте всем участникам летать.",
+      "",
+      "&b&lИнформация:",
+      "&b&l * &7Осталось времени: &b{flightbooster_minutes} минут и {flightbooster_seconds} секунд",
+      "&b&l * &7Цена бустера: &b{flightbooster_crystalcost} кристаллов и ${flightbooster_vaultcost}",
+      "",
+      "&b&l[!] &bНажмите ПКМ чтобы купить этот бустер"
+    ]
+  },
+  "size": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&lРазмер острова",
+    "lore": [
+      "&7Нужно больше места? Купите это",
+      "&7улучшение чтобы увеличить размер острова.",
+      "",
+      "&b&lИнформация:",
+      "&b&l * &7Текущий уровень: &b{sizelevel}",
+      "&b&l * &7Текущий размер: &b{sizeblocks}x{sizeblocks} блоков",
+      "&b&l * &7Цена улучшения: &b{sizecrystalscost} кристаллов и ${sizevaultcost}",
+      "&b&lУровни:",
+      "&b&l * &7Уровень 1: &b50x50 блоков",
+      "&b&l * &7Уровень 2: &b100x100 блоков",
+      "&b&l * &7Уровень 3: &b150x150 блоков",
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы купить это улучшение"
+    ]
+  },
+  "member": {
+    "material": "ARMOR_STAND",
+    "amount": 1,
+    "title": "&b&lКоличество участников",
+    "lore": [
+      "&7Желаете добавить больше игроков на остров? Купите это",
+      "&7улучшение и увеличьте число доступных участников.",
+      "",
+      "&b&lИнформация:",
+      "&b&l * &7Текущий уровень: &b{memberlevel}",
+      "&b&l * &7Текущее количество: &b{membercount} участников",
+      "&b&l * &7Цена улучшения: &b{membercrystalscost} кристаллов и ${membervaultcost}",
+      "&b&lУровни:",
+      "&b&l * &7Уровень 1: &b9 участников",
+      "&b&l * &7Уровень 2: &b18 участников",
+      "&b&l * &7Уровень 3: &b27 участников",
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы купить это улучшение"
+    ]
+  },
+  "warp": {
+    "material": "END_PORTAL_FRAME",
+    "amount": 1,
+    "title": "&b&lВарпы острова",
+    "lore": [
+      "&7Нужно больше варпов? Купите это",
+      "&7улучшение и увеличьте число доступных варпов.",
+      "",
+      "&b&lИнформация:",
+      "&b&l * &7Текущий уровень: &b{warplevel}",
+      "&b&l * &7Текущие количество варпы: &b{warpcount}",
+      "&b&l * &7Цена улучшения: &b{warpcrystalscost} кристаллов и ${warpvaultcost}",
+      "&b&lУровни:",
+      "&b&l * &7Уровень 1: &b2 варпов",
+      "&b&l * &7Уровень 2: &b5 варпов",
+      "&b&l * &7Уровень 3: &b9 варпов",
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы купить это улучшение"
+    ]
+  },
+  "ores": {
+    "material": "DIAMOND_ORE",
+    "amount": 1,
+    "title": "&b&lГенератор руд",
+    "lore": [
+      "&7Желаете улучшить ваш генератор руд? Купите это",
+      "&7улучшение.",
+      "",
+      "&b&lИнформация:",
+      "&b&l * &7Текущий уровень: &b{oreslevel}",
+      "&b&l * &7Цена улучшения: &b{orescrystalscost} кристаллов и ${oresvaultcost}",
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы купить это улучшение"
+    ]
+  },
+  "experience": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lОпыт",
+    "lore": [
+      "&7{experience} опыта",
+      "&b&l[!] &bНажмите ЛКМ чтобы снять",
+      "&b&l[!] &bНажмите ПКМ чтобы вложить"
+    ],
+    "slot": 11
+  },
+  "crystals": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b&lКристаллы",
+    "lore": [
+      "&7{crystals} кристаллов",
+      "&b&l[!] &bНажмите ЛКМ чтобы снять",
+      "&b&l[!] &bНажмите ПКМ чтобы вложить"
+    ],
+    "slot": 13
+  },
+  "money": {
+    "material": "PAPER",
+    "amount": 1,
+    "title": "&b&lДеньги",
+    "lore": [
+      "&7${money}",
+      "&b&l[!] &bНажмите ЛКМ чтобы снять",
+      "&b&l[!] &bНажмите ПКМ чтобы вложить"
+    ],
+    "slot": 15
+  },
+  "crystal": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b*** &b&lкристаллы &b***",
+    "lore": [
+      "",
+      "&b{amount} Кристаллов",
+      "&b&l[!] &bНажмите ПКМ держа в руке чтобы",
+      "&bвложить кристаллы в банк"
+    ]
+  },
+  "background": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": " ",
+    "lore": []
+  },
+  "nextPage": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lСледующая страница",
+    "lore": []
+  },
+  "previousPage": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lПредыдущая страница",
+    "lore": []
+  },
+  "biome": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&l{biome} биом",
+    "lore": [
+      "",
+      "&bЦена: ${price}",
+      "&bкристаллы: {crystals}",
+      "&b&l[!] &bНажмите ПКМ чтобы купить этот биом."
+    ]
+  },
+  "back": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&c&lНазад",
+    "lore": []
+  },
+  "islandmember": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&bРоль: {role}",
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы понизить игрока.",
+      "&b&l[!] &bНажмите ПКМ чтобы повысить игрока."
+    ]
+  },
+  "islandcoop": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Остров: &b{name}",
+      "&b&l * &7Ранг: &b{rank}",
+      "&b&l * &7Очки: &b{value}",
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы телепортироваться на этот остров.",
+      "&b&l[!] &bНажмите ПКМ чтобы завершить совместный режим с этим островом."
+    ]
+  },
+  "islandRoles": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{role}",
+    "lore": []
+  },
+  "islandPermissionAllow": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandPermissionDeny": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandWarp": {
+    "material": "YELLOW_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{warp}",
+    "lore": [
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы телепортироваться на этот варп.",
+      "&b&l[!] &bНажмите ПКМ чтобы удалить этот варп."
+    ]
+  },
+  "topisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&lВладелец острова: &f{player} &7(#{rank})",
+    "headOwner": "{player}",
+    "lore": [
+      "",
+      "&b&l * &7Имя острова: &b{name}",
+      "&b&l * &7Ранг острова: &b{rank}",
+      "&b&l * &7Очки острова: &b{value}",
+      "&b&l * &7Голоса острова: &b{votes}",
+      "",
+      "&b&l * &7Очки банка: &b{ISLANDBANK_value}",
+      "&b&l * &7Изумрудных блоков: &b{EMERALD_BLOCK_amount}",
+      "&b&l * &7Алмазых блоков: &b{DIAMOND_BLOCK_amount}",
+      "&b&l * &7Золотых блоков: &b{GOLD_BLOCK_amount}",
+      "&b&l * &7Железных блоков: &b{IRON_BLOCK_amount}",
+      "&b&l * &7Воронок: &b{HOPPER_amount}",
+      "&b&l * &7Маяков: &b{BEACON_amount}",
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы телепортироваться на этот остров."
+    ]
+  },
+  "topfiller": {
+    "material": "BARRIER",
+    "amount": 1,
+    "title": " ",
+    "lore": []
+  },
+  "visitisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Остров: &b{name}",
+      "&b&l * &7Ранг: &b{rank}",
+      "&b&l * &7Очки: &b{value}",
+      "&b&l * &7Голоса: &b{votes}",
+      "",
+      "&b&l[!] &bНажмите ЛКМ чтобы телепортироваться на этот остров.",
+      "&b&l[!] &bНажмите ПКМ чтобы забрать голос за этот остров."
+    ]
+  },
+  "islandVisitors": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "Нажмите чтобы исключить посетителя"
+    ]
+  },
+  "red": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lКрасный",
+    "lore": [],
+    "slot": 10
+  },
+  "green": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lЗелёный",
+    "lore": [],
+    "slot": 12
+  },
+  "blue": {
+    "material": "BLUE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&lСиний",
+    "lore": [],
+    "slot": 14
+  },
+  "off": {
+    "material": "WHITE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&f&lСкрыть",
+    "lore": [],
+    "slot": 16
+  },
+  "menu": [
+    [
+      {
+        "material": "BEACON",
+        "amount": 1,
+        "title": "&b&lГраница острова",
+        "lore": [
+          "&7Измените цвет вашей границы."
+        ],
+        "slot": 24
+      },
+      "is worldborder"
+    ],
+    [
+      {
+        "material": "GOLD_INGOT",
+        "amount": 1,
+        "title": "&b&lБанк",
+        "lore": [
+          "&7Открыть ваш банк."
+        ],
+        "slot": 30
+      },
+      "is bank"
+    ],
+    [
+      {
+        "material": "BOOK",
+        "amount": 1,
+        "title": "&b&lПрава",
+        "lore": [
+          "&7Изменить права острова."
+        ],
+        "slot": 31
+      },
+      "is permissions"
+    ],
+    [
+      {
+        "material": "END_PORTAL_FRAME",
+        "amount": 1,
+        "title": "&b&lВарпы",
+        "lore": [
+          "&7Посмотреть ваши варпы."
+        ],
+        "slot": 20
+      },
+      "is warps"
+    ],
+    [
+      {
+        "material": "EXPERIENCE_BOTTLE",
+        "amount": 1,
+        "title": "&b&lБустеры",
+        "lore": [
+          "&7Купить бустеры для вашего острова."
+        ],
+        "slot": 23
+      },
+      "is booster"
+    ],
+    [
+      {
+        "material": "WHITE_BED",
+        "amount": 1,
+        "title": "&b&lДом",
+        "lore": [
+          "&7Телепортация на вашу точку дома"
+        ],
+        "slot": 13
+      },
+      "is home"
+    ],
+    [
+      {
+        "material": "NAME_TAG",
+        "amount": 1,
+        "title": "&b&lСовместный режим",
+        "lore": [
+          "&7Посмотреть ваши совместные острова."
+        ],
+        "slot": 32
+      },
+      "is coop"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lУчастники",
+        "headOwner": "cryingmoon",
+        "lore": [
+          "&7Посмотреть участников вашего острова."
+        ],
+        "slot": 14
+      },
+      "is members"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lУлучшения",
+        "headData": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODM4MWM1MjlkNTJlMDNjZDc0YzNiZjM4YmI2YmEzZmRlMTMzN2FlOWJmNTAzMzJmYWE4ODllMGEyOGU4MDgxZiJ9fX0=",
+        "lore": [
+          "&7Улучшите ваш остров."
+        ],
+        "slot": 21
+      },
+      "is upgrade"
+    ],
+    [
+      {
+        "material": "GRASS_BLOCK",
+        "amount": 1,
+        "title": "&b&lРегенерация",
+        "lore": [
+          "&7Перегенерировать ваш острова."
+        ],
+        "slot": 36
+      },
+      "is regen"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lБиом",
+        "headData": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM4Y2YzZjhlNTRhZmMzYjNmOTFkMjBhNDlmMzI0ZGNhMTQ4NjAwN2ZlNTQ1Mzk5MDU1NTI0YzE3OTQxZjRkYyJ9fX0=",
+        "lore": [
+          "&7Изменить биом вашего острова."
+        ],
+        "slot": 12
+      },
+      "is biome"
+    ],
+    [
+      {
+        "material": "BARRIER",
+        "amount": 1,
+        "title": "&b&lУдалить остров",
+        "lore": [
+          "&7Удалить ваш остров."
+        ],
+        "slot": 44
+      },
+      "is delete"
+    ],
+    [
+      {
+        "material": "DIAMOND",
+        "amount": 1,
+        "title": "&b&lТоп островов",
+        "lore": [
+          "&7Посмотреть лучшие острова."
+        ],
+        "slot": 0
+      },
+      "is top"
+    ],
+    [
+      {
+        "material": "IRON_SWORD",
+        "amount": 1,
+        "title": "&b&lМиссии",
+        "lore": [
+          "&7Посмотреть миссии острова."
+        ],
+        "slot": 22
+      },
+      "is missions"
+    ]
+  ]
+}

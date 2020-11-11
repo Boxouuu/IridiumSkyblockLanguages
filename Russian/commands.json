@@ -1,0 +1,459 @@
+{
+  "createCommand": {
+    "aliases": [
+      "create"
+    ],
+    "description": "Создать новый остров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "homeCommand": {
+    "aliases": [
+      "home"
+    ],
+    "description": "Телепортация домой",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "deleteCommand": {
+    "aliases": [
+      "delete"
+    ],
+    "description": "Удалить остров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "reloadCommand": {
+    "aliases": [
+      "reload"
+    ],
+    "description": "Перезагрузка конфигурации",
+    "permission": "iridiumskyblock.reload",
+    "player": false,
+    "enabled": true
+  },
+  "regenCommand": {
+    "aliases": [
+      "regen",
+      "reset"
+    ],
+    "description": "Перегенерировать остров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "inviteCommand": {
+    "aliases": [
+      "invite"
+    ],
+    "description": "Пригласить игрока на остров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "joinCommand": {
+    "aliases": [
+      "join"
+    ],
+    "description": "Присоединится к острову другого игрока",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "missionsCommand": {
+    "aliases": [
+      "missions"
+    ],
+    "description": "Открыть графический интерфейс миссий",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "upgradeCommand": {
+    "aliases": [
+      "upgrade"
+    ],
+    "description": "Открыть графический интерфейс прокачки",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "boosterCommand": {
+    "aliases": [
+      "booster"
+    ],
+    "description": "Открыть графический интерфейс бустеров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "crystalsCommand": {
+    "aliases": [
+      "crystals"
+    ],
+    "description": "Отображает сколько у вас кристаллов",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "giveCrystalsCommand": {
+    "aliases": [
+      "givecrystals"
+    ],
+    "description": "Дать кристаллы игроку",
+    "permission": "iridiumskyblock.givecrystals",
+    "player": false,
+    "enabled": true
+  },
+  "removeCrystalsCommand": {
+    "aliases": [
+      "removecrystals"
+    ],
+    "description": "Забрать кристаллы у игрока",
+    "permission": "iridiumskyblock.removecrystals",
+    "player": false,
+    "enabled": true
+  },
+  "membersCommand": {
+    "aliases": [
+      "members",
+      "users",
+      "list"
+    ],
+    "description": "Показать список участников острова",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "flyCommand": {
+    "aliases": [
+      "fly",
+      "flight"
+    ],
+    "description": "Включить/выключить возможность летать",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "aboutCommand": {
+    "aliases": [
+      "about",
+      "version"
+    ],
+    "description": "Отобразить информацию о плагине",
+    "permission": "",
+    "player": false,
+    "enabled": true
+  },
+  "warpsCommand": {
+    "aliases": [
+      "warps"
+    ],
+    "description": "Открыть графический интерфейс варпов",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "warpCommand": {
+    "aliases": [
+      "setwarp",
+      "addwarp"
+    ],
+    "description": "Установить новый варп",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "valueCommand": {
+    "aliases": [
+      "value"
+    ],
+    "description": "Показать очки острова",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "topCommand": {
+    "aliases": [
+      "top"
+    ],
+    "description": "Посмотреть топ островов",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "leaveCommand": {
+    "aliases": [
+      "leave"
+    ],
+    "description": "Покинуть остров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "worldBorderCommand": {
+    "aliases": [
+      "border",
+      "worldborder",
+      "color",
+      "colour"
+    ],
+    "description": "Открыть графический интерфейс границы",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "kickCommand": {
+    "aliases": [
+      "kick"
+    ],
+    "description": "Выгнать игрока с острова",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "visitCommand": {
+    "aliases": [
+      "visit"
+    ],
+    "description": "Посетить остров другого игрока",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "publicCommand": {
+    "aliases": [
+      "public"
+    ],
+    "description": "Разрешает игрокам посещать ваш остров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "privateCommand": {
+    "aliases": [
+      "private"
+    ],
+    "description": "Запрещает игрокам посещать ваш остров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "bypassCommand": {
+    "aliases": [
+      "bypass"
+    ],
+    "description": "Позволяет обойти все ограничения острова",
+    "permission": "iridiumskyblock.bypass",
+    "player": true,
+    "enabled": true
+  },
+  "setHomeCommand": {
+    "aliases": [
+      "sethome"
+    ],
+    "description": "Установить точку дома",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "permissionsCommand": {
+    "aliases": [
+      "permissions"
+    ],
+    "description": "Редактировать права острова",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "transferCommand": {
+    "aliases": [
+      "transfer"
+    ],
+    "description": "Передать остров другому игроку",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "adminCommand": {
+    "aliases": [
+      "admin"
+    ],
+    "description": "Контролировать остров другого игрока",
+    "permission": "iridiumskyblock.admin",
+    "player": true,
+    "enabled": true
+  },
+  "giveBoosterCommand": {
+    "aliases": [
+      "givebooster"
+    ],
+    "description": "Дать бустер острову",
+    "permission": "iridiumskyblock.givebooster",
+    "player": false,
+    "enabled": true
+  },
+  "giveUpgradeCommand": {
+    "aliases": [
+      "giveupgrade"
+    ],
+    "description": "Дать острову улучшение",
+    "permission": "iridiumskyblock.giveupgrade",
+    "player": false,
+    "enabled": true
+  },
+  "banCommand": {
+    "aliases": [
+      "ban"
+    ],
+    "description": "Забанить игрока и запретить посещать ваш острова",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "unBanCommand": {
+    "aliases": [
+      "unban"
+    ],
+    "description": "Разбанить игрока и разрешить посещать ваш остров",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "coopCommand": {
+    "aliases": [
+      "coop",
+      "trust"
+    ],
+    "description": "Предложить игроку совместный режим",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "unCoopCommand": {
+    "aliases": [
+      "uncoop"
+    ],
+    "description": "Завершить совместную игру с игроком",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "setNameCommand": {
+    "aliases": [
+      "setname"
+    ],
+    "description": "Установить имя вашему острову",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "bankCommand": {
+    "aliases": [
+      "bank"
+    ],
+    "description": "Открыть графический интерфейс банка",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "chatCommand": {
+    "aliases": [
+      "chat"
+    ],
+    "description": "Приватный чат между участниками острова",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "chatSpyCommand": {
+    "aliases": [
+      "chatspy",
+      "spy"
+    ],
+    "description": "Наблюдать за приватными чатами островов",
+    "permission": "iridiumskyblock.spy",
+    "player": true,
+    "enabled": true
+  },
+  "shopCommand": {
+    "aliases": [
+      "shop"
+    ],
+    "description": "Открыть магазин",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "biomeCommand": {
+    "aliases": [
+      "biome"
+    ],
+    "description": "Открыть графический интерфейс биомов",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "helpCommand": {
+    "aliases": [
+      "help"
+    ],
+    "description": "Отобразить команды плагина",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "languagesCommand": {
+    "aliases": [
+      "language",
+      "languages",
+      "translate"
+    ],
+    "description": "Изменить язык плагина",
+    "permission": "iridiumskyblock.language",
+    "player": true,
+    "enabled": true
+  },
+  "recalculateCommand": {
+    "id": 0,
+    "aliases": [
+      "recalc",
+      "recalculate"
+    ],
+    "description": "Пересчитать все очки острова",
+    "permission": "recalculate",
+    "player": false,
+    "enabled": true
+  },
+  "addValueCommand": {
+    "aliases": [
+      "addvalue"
+    ],
+    "description": "Дать острвоу дополнительные очки",
+    "permission": "iridiumskyblock.addvalue",
+    "player": false,
+    "enabled": true
+  },
+  "removeValueCommand": {
+    "aliases": [
+      "removevalue"
+    ],
+    "description": "Забрать очки у острова",
+    "permission": "iridiumskyblock.removevalue",
+    "player": false,
+    "enabled": true
+  },
+  "expelCommand": {
+    "aliases": [
+      "expel",
+      "visitors"
+    ],
+    "description": "Выгнать посетителя с вашего острова",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  }
+}
