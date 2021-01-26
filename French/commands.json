@@ -5,7 +5,7 @@
       "create"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Crée une nouvelle île",
+    "description": "Créer une nouvelle île",
     "enabled": true
   },
   "homeCommand": {
@@ -14,7 +14,7 @@
       "home"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Téléportation vers votre home",
+    "description": "Téléportation à votre home",
     "enabled": true
   },
   "deleteCommand": {
@@ -32,7 +32,7 @@
       "reload"
     ],
     "permission": "iridiumskyblock.reload",
-    "description": "Recharger vos configurations",
+    "description": "Recharger les configurations",
     "enabled": true
   },
   "regenCommand": {
@@ -60,7 +60,7 @@
       "join"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Rejoindre une autre île de joueurs",
+    "description": "Rejoindre une île existante",
     "enabled": true
   },
   "missionsCommand": {
@@ -105,7 +105,7 @@
       "givecrystals"
     ],
     "permission": "iridiumskyblock.givecrystals",
-    "description": "Donne des cristaux à un joueur",
+    "description": "Donner des cristaux à un joueur",
     "enabled": true
   },
   "removeCrystalsCommand": {
@@ -114,7 +114,7 @@
       "removecrystals"
     ],
     "permission": "iridiumskyblock.removecrystals",
-    "description": "Retire les cristaux d'un joueur",
+    "description": "Retirer les cristaux d'un joueur",
     "enabled": true
   },
   "membersCommand": {
@@ -135,7 +135,7 @@
       "flight"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Bascule votre capacité à fly",
+    "description": "Activer la capacité de voler",
     "enabled": true
   },
   "aboutCommand": {
@@ -145,7 +145,7 @@
       "version"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Affiche les informations sur le plugins",
+    "description": "Affiche les informations du plugin",
     "enabled": true
   },
   "warpsCommand": {
@@ -164,7 +164,7 @@
       "addwarp"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Permet de mettre votre warp sur votre île",
+    "description": "Permet d'initialiser un warp sur votre île",
     "enabled": true
   },
   "valueCommand": {
@@ -182,7 +182,7 @@
       "top"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Voir le TOP des îles",
+    "description": "Voir le top des îles",
     "enabled": true
   },
   "leaveCommand": {
@@ -203,7 +203,7 @@
       "colour"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Ouvre le menu des Bordures",
+    "description": "Ouvre le menu de la Bordure",
     "enabled": true
   },
   "kickCommand": {
@@ -212,7 +212,7 @@
       "kick"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Expulse un joueur de votre île",
+    "description": "Expulser un joueur de votre île",
     "enabled": true
   },
   "visitCommand": {
@@ -221,7 +221,7 @@
       "visit"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Visiter une autre île de joueurs",
+    "description": "Visiter l'île d'un autre joueur",
     "enabled": true
   },
   "publicCommand": {
@@ -230,7 +230,7 @@
       "public"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Permettre aux joueurs de visiter votre île",
+    "description": "Autorisez les joueurs à visiter votre île",
     "enabled": true
   },
   "privateCommand": {
@@ -239,7 +239,7 @@
       "private"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Empêchez les joueurs de visiter votre île",
+    "description": "Interdire les joueurs à visiter votre île",
     "enabled": true
   },
   "bypassCommand": {
@@ -248,7 +248,7 @@
       "bypass"
     ],
     "permission": "iridiumskyblock.bypass",
-    "description": "Contourner toutes les restrictions des îles",
+    "description": "Contourner toutes les restrictions de l'îles",
     "enabled": true
   },
   "setHomeCommand": {
@@ -257,7 +257,7 @@
       "sethome"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Installer votre home sur votre île",
+    "description": "Initialiser le point d'apparition de votre île",
     "enabled": true
   },
   "permissionsCommand": {
@@ -266,7 +266,7 @@
       "permissions"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Modifier les autorisations de l'île",
+    "description": "Modifier les autorisations des membres sur l'île",
     "enabled": true
   },
   "transferCommand": {
@@ -284,7 +284,7 @@
       "admin"
     ],
     "permission": "iridiumskyblock.admin",
-    "description": "Contrôler une île de joueurs",
+    "description": "Contrôler l'île d'un joueur",
     "enabled": true
   },
   "giveBoosterCommand": {
@@ -302,7 +302,7 @@
       "giveupgrade"
     ],
     "permission": "iridiumskyblock.giveupgrade",
-    "description": "Améliorer une île",
+    "description": "Donner une amélioration à une île",
     "enabled": true
   },
   "banCommand": {
@@ -311,7 +311,7 @@
       "ban"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Interdire à un joueur de visiter votre île",
+    "description": "Interdire à un joueur spécifique de visiter votre île",
     "enabled": true
   },
   "unBanCommand": {
@@ -320,7 +320,7 @@
       "unban"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Désinterdire à un joueur de visiter votre île",
+    "description": "Réautoriser un joueur spécifique à visiter votre île",
     "enabled": true
   },
   "coopCommand": {
@@ -329,7 +329,7 @@
       "coop"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Demander une aliance avec une autre île",
+    "description": "Demander une alliance avec une autre île",
     "enabled": true
   },
   "unCoopCommand": {
@@ -338,7 +338,7 @@
       "uncoop"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Révoquer une coopérative des îles",
+    "description": "Révoquer une coopération d'île",
     "enabled": true
   },
   "setNameCommand": {
@@ -356,7 +356,7 @@
       "bank"
     ],
     "permission": "iridiumskyblock.",
-    "description": "Ouvre le menu de la Banque",
+    "description": "Ouvre le menu de la Banque d'île",
     "enabled": true
   },
   "chatCommand": {
